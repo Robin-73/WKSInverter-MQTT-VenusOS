@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "*** starting dbus-iwks-inverter ***"
+exec 2>&1
+exec /data/etc/dbus-wks-inverter/dbus-wks-inverter.py
